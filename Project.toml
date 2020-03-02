@@ -1,6 +1,6 @@
 name = "armadillo_jll"
 uuid = "0631256a-41da-5d69-bb72-795e0d5510ec"
-version = "9.850.1+1"
+version = "9.850.1+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
