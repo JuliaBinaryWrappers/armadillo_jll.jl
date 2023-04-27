@@ -3,12 +3,12 @@ export libarmadillo
 
 using OpenBLAS_jll
 JLLWrappers.@generate_wrapper_header("armadillo")
-JLLWrappers.@declare_library_product(libarmadillo, "@rpath/libarmadillo.11.dylib")
+JLLWrappers.@declare_library_product(libarmadillo, "@rpath/libarmadillo.12.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(OpenBLAS_jll)
     JLLWrappers.@init_library_product(
         libarmadillo,
-        "lib/libarmadillo.11.2.1.dylib",
+        "lib/libarmadillo.12.2.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
