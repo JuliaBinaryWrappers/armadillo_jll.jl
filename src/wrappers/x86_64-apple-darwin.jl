@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header(OpenBLAS_jll)
     JLLWrappers.@init_library_product(
         libarmadillo,
-        "lib/libarmadillo.12.2.0.dylib",
+        "lib/libarmadillo.12.6.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
