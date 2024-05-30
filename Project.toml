@@ -1,6 +1,6 @@
 name = "armadillo_jll"
 uuid = "0631256a-41da-5d69-bb72-795e0d5510ec"
-version = "12.6.6+0"
+version = "12.8.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
