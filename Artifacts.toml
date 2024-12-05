@@ -1,143 +1,151 @@
 [[armadillo]]
 arch = "aarch64"
-git-tree-sha1 = "e67b7d24f27e1c67304fc8aacac287c6b74abafd"
+git-tree-sha1 = "09e70826733b7207aea7b02e2d280707c9ffc42f"
 os = "macos"
 
     [[armadillo.download]]
-    sha256 = "6c3678aa3f464128fb22d7b5602ff28df5e501c1f33912c7e8408c15f2414d18"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.aarch64-apple-darwin.tar.gz"
+    sha256 = "7e27f4c23725023efdb9455b25615499b07112b3161f7cc7a4302af5542f22ef"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.aarch64-apple-darwin.tar.gz"
 [[armadillo]]
 arch = "aarch64"
-git-tree-sha1 = "cff5e2f30c1ef7e1578a55acc1749832373b4eb1"
+git-tree-sha1 = "e923dd74b9e8829bd538caf83e67e58f61ce546f"
 libc = "glibc"
 os = "linux"
 
     [[armadillo.download]]
-    sha256 = "0ec831935ac88fe09e264532e1c35240f3066b4c6eae7d40d60a77f9937c8fbe"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "debc5b6d0c8d93514630cc3ea3b55036e4b2e04b9d26b15b5e97e4906d84c3dd"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.aarch64-linux-gnu.tar.gz"
 [[armadillo]]
 arch = "aarch64"
-git-tree-sha1 = "f510d7fa6fefa0cb8cef29950041f5a6944b19f4"
+git-tree-sha1 = "3e795f95a48e6eb069d170bddec1fcedcfb7f5b1"
 libc = "musl"
 os = "linux"
 
     [[armadillo.download]]
-    sha256 = "5328aa8ff6a8468fb56964367166868dada5e1a4e8bc71ae1e5662c3f267679e"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.aarch64-linux-musl.tar.gz"
+    sha256 = "981d69652009f733fbaaf5fd9914d3c5a9c96690bcf4afce24af4518db00e5a7"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.aarch64-linux-musl.tar.gz"
 [[armadillo]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "a75f589128ca878de4b34b0415485454ccdb32c5"
-libc = "glibc"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "e4d91acbbd7fa51fba2ff10e7c4827fc52cb262819f83a0115e0f3c3bd1ee445"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.armv6l-linux-gnueabihf.tar.gz"
-[[armadillo]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "a4454ab83ffa43db88d0e966202e042cba5a0e82"
-libc = "musl"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "c88e09f5859c7203ceff50b46848105db34a1594219d08600918994e9e0a7e86"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.armv6l-linux-musleabihf.tar.gz"
-[[armadillo]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d91bbcc75e98c3caebff649dd00ac7833fc06c7e"
-libc = "glibc"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "1f5afe882385e084dcd17e878fee51c9463c91de8fd7d080062444dc5f2c80cf"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.armv7l-linux-gnueabihf.tar.gz"
-[[armadillo]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "0ca0dd8cb956fb7e5fd62941d851d8996560d244"
-libc = "musl"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "45997ab7a12de4308daf6055ec5758bd6e7e2a51cfea01af25059dc465e56ad8"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.armv7l-linux-musleabihf.tar.gz"
-[[armadillo]]
-arch = "i686"
-git-tree-sha1 = "b5988c9bf166545125bde4b18af0c61d26a63127"
-libc = "glibc"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "dd5d0e5fda1ebd320bca71fd258a63274641b71eef685de44de15307c7361f5c"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.i686-linux-gnu.tar.gz"
-[[armadillo]]
-arch = "i686"
-git-tree-sha1 = "313df3deb544b5083799e58b974ca74d55288dce"
-libc = "musl"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "185f8b7d970d302c5c8ae9e936e719eae200261661da81cbc3297c62bf09a507"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.i686-linux-musl.tar.gz"
-[[armadillo]]
-arch = "i686"
-git-tree-sha1 = "5c71a05549e02c1836dcdfbc1c5c48c2ed7a7b42"
-os = "windows"
-
-    [[armadillo.download]]
-    sha256 = "aac1f2e836ef17c15f599aded4a87fbde3f7d4f16ad480d8ef897dcb64a15be6"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.i686-w64-mingw32.tar.gz"
-[[armadillo]]
-arch = "powerpc64le"
-git-tree-sha1 = "81c3e13f29ae6f8dab830f4c66cfcf5cccb7d737"
-libc = "glibc"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "cbd761120f5f0d7f0ce7b57d1398e4cd615d7af829af944ff906c32768b93376"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.powerpc64le-linux-gnu.tar.gz"
-[[armadillo]]
-arch = "x86_64"
-git-tree-sha1 = "6afb386abebc9624980906a7ac7723bf62bcab28"
-os = "macos"
-
-    [[armadillo.download]]
-    sha256 = "ffedba4ca6d7c0844c234d59aa1df326fd847d82d0a3bf06fe01ff8193ca90df"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.x86_64-apple-darwin.tar.gz"
-[[armadillo]]
-arch = "x86_64"
-git-tree-sha1 = "1165df8cc76789e78cb07b13861f662703065535"
-libc = "glibc"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "f690a104ce1d148dcf025dc2a88ed072e80ad4751dcc396221e512668075f8a4"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.x86_64-linux-gnu.tar.gz"
-[[armadillo]]
-arch = "x86_64"
-git-tree-sha1 = "1541676d922ed46a561042a863143b757ea27e28"
-libc = "musl"
-os = "linux"
-
-    [[armadillo.download]]
-    sha256 = "e8073a316753242245292113caf286cf1ce3f1e87153a948c639d2484ea2c3b0"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.x86_64-linux-musl.tar.gz"
-[[armadillo]]
-arch = "x86_64"
-git-tree-sha1 = "f59a86f5262d1ff7c7d793bd724a59fe25515b90"
+arch = "aarch64"
+git-tree-sha1 = "8ebb86280b5ec65534dc8f5103973da3d5fe882a"
 os = "freebsd"
 
     [[armadillo.download]]
-    sha256 = "68935b730745a0598a58aa48ad608da47b6c74bba676061c5d51be2427b0857c"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "b3d6a67d7350159c14371e42c8289375e15fda7cfaab7aeed61023fb5e9eacc8"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.aarch64-unknown-freebsd.tar.gz"
 [[armadillo]]
-arch = "x86_64"
-git-tree-sha1 = "f83bfffddd2cd68260be7a96bf0d965631c07497"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "1d3bf987203817b495ded73dbd60c0ed89caf04b"
+libc = "glibc"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "203d3ba2ace122fb36039b36a99d69a7170b18ae9fb111e89cf32fff8df108fa"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.armv6l-linux-gnueabihf.tar.gz"
+[[armadillo]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "60debb983f4bfbe8de008e56afe6ea2cfdf39cf3"
+libc = "musl"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "24eb2e90dfc488ce81aa3ae882d4d4542e51d329eb9a5194efe686379301d17c"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.armv6l-linux-musleabihf.tar.gz"
+[[armadillo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "51c8ee57bfc7e4e1e00f5a701e357a60843ca6cc"
+libc = "glibc"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "887552d5d6f0844c578e3f939e926a82f93eccc3a7f59a7684ce884d98dd2446"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.armv7l-linux-gnueabihf.tar.gz"
+[[armadillo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ce822451836d4e7d369d4a2c1fef2b2911eda2de"
+libc = "musl"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "7765688b765fd3f2a56728b943faadabbc32c1682cfca335f652d259cb08e0fa"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.armv7l-linux-musleabihf.tar.gz"
+[[armadillo]]
+arch = "i686"
+git-tree-sha1 = "1058a1fea96ec7751af08d4fe5b8faa93c686f3b"
+libc = "glibc"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "d47f5232eb2caf9bafe5bc97a0b4356e909ba92f101cad842273b052fe15b3ca"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.i686-linux-gnu.tar.gz"
+[[armadillo]]
+arch = "i686"
+git-tree-sha1 = "2ddcf814aeb813d7f30aef7277f202db07e455ab"
+libc = "musl"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "6bed9e44b7061fddfd663bd68f1d3589ded2bb1a0ac99bdfa76646f6882e26b1"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.i686-linux-musl.tar.gz"
+[[armadillo]]
+arch = "i686"
+git-tree-sha1 = "ab6d1467b42f8cda681a06b86b795a22d9671b11"
 os = "windows"
 
     [[armadillo.download]]
-    sha256 = "28ab7f16bcaaa3d6cb99b53e99394e29b3a334b9a47f35c005f9df5afe05865d"
-    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v12.8.3+0/armadillo.v12.8.3.x86_64-w64-mingw32.tar.gz"
+    sha256 = "212d83f11269b892ea621c55fb3dbcec80dfc9625e20e0b0d99dcc215d67df1f"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.i686-w64-mingw32.tar.gz"
+[[armadillo]]
+arch = "powerpc64le"
+git-tree-sha1 = "f27c81aad04d640d352a8f1f677b933948064adf"
+libc = "glibc"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "7cc7d20a9d166863586bf0a9e2c0ea651e411e1da13f65e11a3dc6f41242db44"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.powerpc64le-linux-gnu.tar.gz"
+[[armadillo]]
+arch = "x86_64"
+git-tree-sha1 = "9ad0f38ddaeba46ff72642977310dcdc5d2e8937"
+os = "macos"
+
+    [[armadillo.download]]
+    sha256 = "71244df99e1b5c0e60156e0576eaa6781aa4abafeaeba30e51e3c0454b1b8501"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.x86_64-apple-darwin.tar.gz"
+[[armadillo]]
+arch = "x86_64"
+git-tree-sha1 = "7750c56d8ab6087fb5fbaa3324a21dc7d7f06447"
+libc = "glibc"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "9a0511c3e188f1bf4f60c22104569fc6800d049b95c31ec541f67700610f6b74"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.x86_64-linux-gnu.tar.gz"
+[[armadillo]]
+arch = "x86_64"
+git-tree-sha1 = "f0b2a917e5fd81c26db35db69696bdfb62ea66f8"
+libc = "musl"
+os = "linux"
+
+    [[armadillo.download]]
+    sha256 = "365bbb341b466246ee3c2692be121e1d0fcae010a71c76ce4e5275c8eb16266a"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.x86_64-linux-musl.tar.gz"
+[[armadillo]]
+arch = "x86_64"
+git-tree-sha1 = "7c5a085b44fd78df523940ae42ce89a966f52ed5"
+os = "freebsd"
+
+    [[armadillo.download]]
+    sha256 = "e0de6b164a62e6ccb605a51c26cfd3db244264e5615836e94cc96f2e8edeaf94"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.x86_64-unknown-freebsd.tar.gz"
+[[armadillo]]
+arch = "x86_64"
+git-tree-sha1 = "1e4c3049181d2eef059e989dc2652a45ca1e0ce8"
+os = "windows"
+
+    [[armadillo.download]]
+    sha256 = "809147fa8ce1d3ae18fbd1d844ec113104c1c95b1d95f0e3afa721ed7cc4aecc"
+    url = "https://github.com/JuliaBinaryWrappers/armadillo_jll.jl/releases/download/armadillo-v14.2.1+0/armadillo.v14.2.1.x86_64-w64-mingw32.tar.gz"

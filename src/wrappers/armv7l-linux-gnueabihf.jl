@@ -3,7 +3,7 @@ export libarmadillo
 
 using OpenBLAS_jll
 JLLWrappers.@generate_wrapper_header("armadillo")
-JLLWrappers.@declare_library_product(libarmadillo, "libarmadillo.so.12")
+JLLWrappers.@declare_library_product(libarmadillo, "libarmadillo.so.14")
 function __init__()
     JLLWrappers.@generate_init_header(OpenBLAS_jll)
     JLLWrappers.@init_library_product(
